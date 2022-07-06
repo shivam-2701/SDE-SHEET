@@ -2,7 +2,7 @@
 using namespace std;
 int maximumProfit(vector<int> &prices){
     int maxProfit=INT_MIN;
-    int n= prices.size();
+    int n= prices.size();   
     int minPrice=INT_MAX;
     minPrice=prices[0];
     for(int i=1;i<n;i++){
